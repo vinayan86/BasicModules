@@ -35,12 +35,25 @@ public class EmaiUpdation {
 	
 	System.out.println("Do you want to continue registration (y/n)?");
 	String ch=br.readLine();
+	if(ch.equalsIgnoreCase("y"))
+	{
+		
+		System.out.println("Do you want to update the email id?(yes/no)");
+		String emailUp=br.readLine();
+		if(emailUp.compareTo("yes")==0)
+		{
+			System.out.println("Update Email:");
+			System.out.println("Enter Your Email...");
+			email=br.readLine();
+		}
+	}
 	System.out.println("Name : "+name);
 	System.out.println("Address : "+address);
 	System.out.println("Number : "+contactNumber);
 	System.out.println("Email : "+email);
 	System.out.println("Proof Type : "+proofType);
 	System.out.println("Proof ID : "+proofId);
+	
 
 	}
 
