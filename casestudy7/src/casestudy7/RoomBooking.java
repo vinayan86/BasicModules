@@ -19,7 +19,7 @@ String sd=" ";
 		
 		do
 		{
-		System.out.println("Enter your choice\n1:Book\n2:Exit");
+		System.out.println("Enter your choice\n1:Register\n2:Exit");
 		choice=Integer.parseInt(br.readLine());
 		
 		
