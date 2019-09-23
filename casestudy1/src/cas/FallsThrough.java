@@ -1,4 +1,4 @@
-package casestudyone;
+package cas;
 
 import java.io.BufferedReader;
 import java.io.IOException;
